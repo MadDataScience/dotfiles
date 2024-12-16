@@ -15,3 +15,5 @@ ZSH_THEME="amuse"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+source /workspaces/main/.bash_profile # again

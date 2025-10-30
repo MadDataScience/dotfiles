@@ -1,5 +1,3 @@
-source /workspaces/main/.bash_profile
-
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -12,8 +10,6 @@ export ZSH=$HOME/.oh-my-zsh
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="amuse"
 
-plugins=(git)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
-
-source /workspaces/main/.bash_profile # again
